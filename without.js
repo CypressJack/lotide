@@ -21,9 +21,7 @@ const eqArrays = function(array1, array2) {
 
 const without = function(array1, array2) {
   let newArray = [];
-  let num = 0;
   for (let i = 0; i < array1.length; i++) {
-    let counter = 0;
     let doesMatch = false;
     for (let y = 0; y < array2.length; y++) {
       if (array1[i] === array2[y] && doesMatch === false) {
