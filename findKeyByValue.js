@@ -22,4 +22,4 @@ const favouriteMovies = {
   documentary: "Planet Earth"
 }
 
-console.log(findKeyByValue(favouriteMovies, "The Shining"));
+console.log(findKeyByValue(favouriteMovies, "Knocked Up"));
